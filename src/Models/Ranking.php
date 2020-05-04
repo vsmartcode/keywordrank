@@ -1,6 +1,6 @@
 <?php
 
-namespace seongbae\KeywordRank\Models;
+namespace vsmartcode\KeywordRank\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -13,6 +13,6 @@ class Ranking extends Model
     ];
 
     public function keyword() {
-        return $this->belongsTo('seongbae\KeywordRank\Models\Website');
+        return $this->belongsTo('vsmartcode\KeywordRank\Models\Website');
     }
 }

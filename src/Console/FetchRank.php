@@ -1,9 +1,9 @@
 <?php
 
-namespace seongbae\KeywordRank\Console;
+namespace vsmartcode\KeywordRank\Console;
 
 use Illuminate\Console\Command;
-use seongbae\KeywordRank\Services\KeywordRankFetcher;
+use vsmartcode\KeywordRank\Services\KeywordRankFetcher;
 use Illuminate\Support\Facades\Config;
 
 class FetchRank extends Command 

@@ -20,11 +20,11 @@
     },
     "autoload": {
         "psr-4": {
-            "vsmartcode\\keywordrank\\": "src/"
+            "vsmartcode\\KeywordRank\\": "src/"
         },
         "files": [
             "src/Libs/simple_html_dom.php",
-            "src/Helpers/keywordrankHelper.php"
+            "src/Helpers/KeywordRankHelper.php"
         ]
     },
     "extra": {
@@ -32,7 +32,7 @@
         "frameworks": ["Laravel 7.0"],
         "laravel": {
             "providers": [
-                "vsmartcode\\keywordrank\\keywordrankServiceProvider"
+                "vsmartcode\\KeywordRank\\KeywordRankServiceProvider"
             ]            
         }
     },

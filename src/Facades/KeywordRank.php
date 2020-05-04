@@ -1,5 +1,5 @@
 <?php
-namespace seongbae\KeywordRank\Facades;
+namespace vsmartcode\KeywordRank\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

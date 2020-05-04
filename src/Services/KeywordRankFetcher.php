@@ -1,14 +1,14 @@
 <?php 
-namespace seongbae\KeywordRank\Services;
+namespace vsmartcode\KeywordRank\Services;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
 use Storage;
-use seongbae\KeywordRank\Models\Website;
-use seongbae\KeywordRank\Models\Keyword;
-use seongbae\KeywordRank\Models\Ranking;
+use vsmartcode\KeywordRank\Models\Website;
+use vsmartcode\KeywordRank\Models\Keyword;
+use vsmartcode\KeywordRank\Models\Ranking;
 
 class KeywordRankFetcher
 {

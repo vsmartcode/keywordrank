@@ -1,5 +1,5 @@
 <?php
-namespace seongbae\KeywordRank\Models;
+namespace vsmartcode\KeywordRank\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -13,10 +13,10 @@ class Keyword extends Model
     ];
 
     public function website() {
-        return $this->belongsTo('seongbae\KeywordRank\Models\Website');
+        return $this->belongsTo('vsmartcode\KeywordRank\Models\Website');
     }
 
     public function rankings() {
-        return $this->hasMany('seongbae\KeywordRank\Models\Ranking');
+        return $this->hasMany('vsmartcode\KeywordRank\Models\Ranking');
     }
 }

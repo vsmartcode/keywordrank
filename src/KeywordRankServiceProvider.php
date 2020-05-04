@@ -1,9 +1,9 @@
 <?php 
-namespace seongbae\KeywordRank;
+namespace vsmartcode\KeywordRank;
 
 use Illuminate\Support\ServiceProvider;
-use seongbae\KeywordRank\Services\KeywordRankFetcher;
-use seongbae\KeywordRank\Console\FetchRank;
+use vsmartcode\KeywordRank\Services\KeywordRankFetcher;
+use vsmartcode\KeywordRank\Console\FetchRank;
 
 class KeywordRankServiceProvider extends ServiceProvider 
 {
