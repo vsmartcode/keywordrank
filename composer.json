@@ -29,7 +29,7 @@
     },
     "extra": {
         "component": "package",
-        "frameworks": ["Laravel"],
+        "frameworks": ["Laravel 7.0"],
         "laravel": {
             "providers": [
                 "vsmartcode\\KeywordRank\\KeywordRankServiceProvider"
