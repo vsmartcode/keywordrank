@@ -10,13 +10,13 @@ Add the following line to the `require` section of your Laravel webapp's `compos
 
 ```javascript
     "require": {
-        "seongbae/KeywordRank": "1.*"
+        "vsmartcode/keywordrank": "1.*"
     }
 ```
 
 Run `composer update` to install the package.
 
-Or simpy run `composer require seongbae/keywordrank`
+Or simpy run `composer require vsmartcode/keywordrank`
 
 This package uses Laravel 5.5 Package Auto-Discovery.
 
@@ -25,14 +25,14 @@ For previous versions of Laravel, you need to update `config/app.php` by adding 
 ```php
 'providers' => [
     // ...
-    seongbae\KeywordRank\KeywordRankServiceProvider::class,
+    vsmartcode\KeywordRank\KeywordRankServiceProvider::class,
 ];
 ```
 
 Next, publish all package resources:
 
 ```bash
-    php artisan vendor:publish --provider="seongbae\KeywordRank\KeywordRankServiceProvider"
+    php artisan vendor:publish --provider="vsmartcode\KeywordRank\KeywordRankServiceProvider"
 ```
 
 This will add to your project:
